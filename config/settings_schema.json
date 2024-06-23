@@ -4,15 +4,15 @@
     "theme_name": "Themekit template theme",
     "theme_version": "1.0.0",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https://github.com/Shopify/themekit",
-    "theme_support_url": "https://github.com/Shopify/themekit/issues"
+    "theme_documentation_url": "https:\/\/github.com\/Shopify\/themekit",
+    "theme_support_url": "https:\/\/github.com\/Shopify\/themekit\/issues"
   },
   {
     "name": "Currency",
     "settings": [
       {
         "type": "paragraph",
-        "content": "To offer multiple currencies on your online store, you must first [edit your store's currency formatting]({{ site.url }}/manual/using-themes/change-the-layout/help-script-find-money-formats)."
+        "content": "To offer multiple currencies on your online store, you must first [edit your store's currency formatting]({{ site.url }}\/manual\/using-themes\/change-the-layout\/help-script-find-money-formats)."
       },
       {
         "type": "checkbox",
@@ -42,7 +42,7 @@
         "id": "supported_currencies",
         "label": "Supported currencies",
         "default": "INR GBP CAD USD AUD EUR JPY BDT",
-        "info": "Use the country's ISO [currency code](http://www.xe.com/iso4217.php). Separate your currency codes with a space."
+        "info": "Use the country's ISO [currency code](http:\/\/www.xe.com\/iso4217.php). Separate your currency codes with a space."
       },
       {
         "type": "text",
