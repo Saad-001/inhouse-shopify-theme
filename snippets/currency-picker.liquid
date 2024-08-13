@@ -1,3 +1,4 @@
+{% if settings.show_multiple_currencies %}
 <div class="currency-picker">
   <label class="currency-picker-label">Pick a currency</label>
   <select class="currency-picker-select" name="currencies">
@@ -13,3 +14,4 @@
     {% endfor %}
   </select>
 </div>
+{% endif %}
